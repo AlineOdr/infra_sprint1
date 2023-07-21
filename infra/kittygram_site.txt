@@ -1,0 +1,5 @@
+IP: 51.250.100.111;
+name_taski: https://taskialine.hopto.org/;
+name_kittygram: https://kittygramaline.hopto.org/;
+login: Alina;
+password: Alina12345;
