@@ -1,6 +1,7 @@
 server {
     server_name 51.250.100.111 taskialine.hopto.org
 ;
+    server_tokens off;
     location /api/ {
         proxy_pass http://127.0.0.1:8000;
     }
@@ -39,6 +40,7 @@ server {
 
 server {
     server_name kittygramaline.hopto.org;
+    server_tokens off;
     location /api/ {
         proxy_pass http://127.0.0.1:8080;
         client_max_body_size 20M;
